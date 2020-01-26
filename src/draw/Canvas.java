@@ -22,6 +22,7 @@ class Canvas extends JFrame implements ActionListener {
         setTitle(Constants.mainFrameTitle);
         setSize(Constants.boardSize + 20, Constants.boardSize + 40);
         setLocationRelativeTo(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         //TODO: переосмыслить c Артемием
         add(new JPanel() {
             @Override
